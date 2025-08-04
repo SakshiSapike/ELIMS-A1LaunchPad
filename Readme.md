@@ -38,8 +38,8 @@ A full-stack web-based application designed to manage, track, and visualize inve
 | Layer       | Technology           |
 |-------------|----------------------|
 | Frontend    | HTML, CSS, Bootstrap, JavaScript |
-| Backend     | Node.js, Express     |
-| Database    | MongoDB (Mongoose)   |
+| Backend     |php                    |
+| Database    |  MYSQL   |
 | Charts      | Chart.js             |
 | Hosting     | GitHub + Vercel / Render (optional) |
 
