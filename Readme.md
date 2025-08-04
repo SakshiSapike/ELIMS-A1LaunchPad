@@ -74,7 +74,7 @@ ELIMS-A1LaunchPad/
 ![Login](https://github.com/SakshiSapike/ELIMS-A1LaunchPad/blob/main/Assests/Login.jpg)
 ![Account](https://github.com/SakshiSapike/ELIMS-A1LaunchPad/blob/main/Assests/Account.jpg)
 
-### 📊 Login Dashboard
+### 📊 Admin Dashboard
 ![Admin](https://github.com/SakshiSapike/ELIMS-A1LaunchPad/blob/main/Assests/Admin_dashboard.jpg)
 
 
