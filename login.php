@@ -1,7 +1,7 @@
 <?php
+ob_start(); // Start output buffering to allow header redirection
 session_start();
 
-// Handle login logic
 $message = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -26,10 +26,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['role'] = $row['role'];
 
             // Redirect based on role
-            if ($_SESSION['role'] == 'Admin') {
-                header("Location: dashboard.php");
-            } else {
-                header("Location: inventory.php");
+            $role = strtolower($row['role']);
+            switch ($role) {
+                case 'admin':
+                    header("Location: admin_dashboard.php");
+                    break;
+                case 'technician':
+                    header("Location: technician_dashboard.php");
+                    break;
+                case 'Researcher':
+                    header("Location: student_dashboard.php");
+                    break;
+                default:
+                    header("Location: inventory.php"); // fallback
             }
             exit();
         } else {
