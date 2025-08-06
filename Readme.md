@@ -12,7 +12,7 @@ A full-stack web-based application designed to manage, track, and visualize inve
 - 📦 **Component Management**  
   Add, view, edit, and delete electronic components.
 
-- 🔍 **Search & Filter**  
+- 🔍 **Search & Filter**
   Search by name or part number, and filter by category.
 
 - 📈 **Dashboard Visualizations**  
